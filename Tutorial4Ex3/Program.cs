@@ -3,6 +3,7 @@ using System.Diagnostics;
 using System.Xml.Linq;
 using System.Collections.Generic;
 
+
 class Customer
 {
     public int Id { get; set; }
@@ -10,12 +11,13 @@ class Customer
     public string Email { get; set; }
 
     public Customer(int id, string name, string email)
-    { 
-    Id = id;
-    Name = name;
-    Email = email;
-    } 
+    {
+        Id = id;
+        Name = name;
+        Email = email;
+    }
 }
+
 class Program
 {
     static void Main()
